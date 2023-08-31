@@ -48,7 +48,7 @@ git clone git://git.denx.de/u-boot.git
 -  t1 ( *Hardware Specific* ) ▶ Power On self test ( state of hardware = undefined state  )
 -  t1 &rarr; t2 ( Running inside *ROM code* ( *Vendor specific* ) ).
 	- ROM code *copy SPL into SRAM*.
-	- ![[4. ROM CODE.png]]
+	- ![4. ROM CODE.png](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/4.%20ROM%20CODE.png)
 
 - t3: Running SPL ( Secondary program loader ) code (*Vendor specific*).
 	- initializing hardware ( *DRAM* and *DRAM controller* ).
@@ -57,7 +57,7 @@ git clone git://git.denx.de/u-boot.git
 
 
 - SPL takes control 
-	![[5.SPL.png]]
+	![5.SPL.png](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/5.SPL.png)
 
 - t4: SPL loads bootloader from /boot partition.
 
@@ -71,7 +71,7 @@ git clone git://git.denx.de/u-boot.git
 2. Pass DTB to kernel ( Details Hardware ).
 3. Location + size initramfs ( optional ).
 4. Gives control to kernel.
-![[6. Bootloader.png]]
+![6. Bootloader.png](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/6.%20Bootloader.png)
 ---
 
 ## 3. Introduction device trees.
@@ -79,7 +79,8 @@ git clone git://git.denx.de/u-boot.git
 
 #### 3.1: Device Tree for RASPI3 ( BCM2837 ).
 
-[link]
+[[Binary tree]](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/bcm2710-rpi-3-b-plus%20(1).dtb) 
+Binary source: https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/rpi3.dts
 #### 3.2 Operations on Device tree.
 
 1. Device Tree &rarr; Binary.
