@@ -40,7 +40,7 @@ git clone git://git.denx.de/u-boot.git
 ## 1. Understanding Booting Sequence.
 ---
 
-![[[3. Linux Startup.png](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/3.%20Linux%20Startup.png)]]
+![3. Linux Startup.png](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/3.%20Linux%20Startup.png)
 
 #### 🕐 1.1 Important timepoints.
 ---
