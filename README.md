@@ -80,7 +80,7 @@ git clone git://git.denx.de/u-boot.git
 #### 3.1: Device Tree for RASPI3 ( BCM2837 ).
 
 [[Binary tree]](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/bcm2710-rpi-3-b-plus%20(1).dtb) 
-Binary source: https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/rpi3.dts
+[[Binary Source]]((https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/rpi3.dts)) 
 #### 3.2 Operations on Device tree.
 
 1. Device Tree &rarr; Binary.
@@ -118,7 +118,7 @@ make rpi_3_defconfig
 make CROSS_COMPILE=<toolchain prefix>
 ```
 
-![[7. U-boot.png]]
+![7. U-boot.png](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/7.%20U-boot.png)
 
 3. Installing U-boot ( **SD-CARD Version** )
 
