@@ -38,13 +38,6 @@ git clone git://git.denx.de/u-boot.git
 8. installing U-Boot.
 9. Using U-Boot.
 - **Default Number in Hex Decimal**
-#### U-BOOT Commands
-- nand read *82000000* *400000* *200000* *Read 0x200000 bytes from 0x8200000 and use offset = 400000*
-- `setenv` ▶ create or modify environment variables
-- `setenv <var Name> null` ▶ delete variable.
-- `printenv` ▶ print all variables.
-1. Booting Linux.
-2. Porting and Testing.
 ---
 ## 1. Understanding Booting Sequence.
 ---
