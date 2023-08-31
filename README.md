@@ -29,15 +29,13 @@ git clone git://git.denx.de/u-boot.git
 ## Actions.
 0. Booting Sequence.
 1. Emulating RASPI3
-2. dtc -I dtb -O dts -o ../msm8916-0011.dts msm8916-0011.dtb
-3. Compile Device tree.
-4. Moving from Bootloader to Kernel.
-5. configure bootloader to run over SOC.
-6. Booting Sequence.
-7. Building U-Boot.
-8. installing U-Boot.
-9. Using U-Boot.
-- **Default Number in Hex Decimal**
+2. Compile Device tree.
+3. Moving from Bootloader to Kernel.
+4. configure bootloader to run over SOC.
+5. Booting Sequence.
+6. Building U-Boot.
+7. installing U-Boot.
+8. Using U-Boot.
 ---
 ## 1. Understanding Booting Sequence.
 ---
@@ -55,7 +53,7 @@ git clone git://git.denx.de/u-boot.git
 - t3: Running SPL ( Secondary program loader ) code (*Vendor specific*).
 	- initializing hardware ( *DRAM* and *DRAM controller* ).
 
->[!info] - SPL can be found in first partition SD-CARD.
+> - SPL can be found in first partition SD-CARD.
 
 
 - SPL takes control 
@@ -99,7 +97,6 @@ dtc -I dtb -O dts -o output.dts input.dtb
 ## 4. U-BOOT.
 ---
 
->[!info]
 > - Support multiple architecture and boards.
 
 #### Operations
