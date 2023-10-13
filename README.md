@@ -116,6 +116,9 @@ cd u-boot
 ```shell
 make rpi_3_defconfig
 make CROSS_COMPILE=<toolchain prefix>
+#With PATH
+make CROSS_COMPILE=`$raspi3`
+make CROSS_COMPILE=`${raspi3}`
 ```
 
 ![7. U-boot.png](https://github.com/embeddedlinuxworkshop/M2-S2/blob/main/7.%20U-boot.png)
